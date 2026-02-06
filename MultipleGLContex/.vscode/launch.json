@@ -1,0 +1,53 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debugging",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/A/build/final",
+      "args": ["run"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/A",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true,
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true,
+        },
+      ],
+    },
+    {
+      "name": "PINTO",
+      "type": "cppdbg",
+      "request": "launch",
+      "program": "${workspaceFolder}/A/src/pinto",
+      "args": ["run"],
+      "stopAtEntry": false,
+      "cwd": "${workspaceFolder}/A/src",
+      "environment": [],
+      "externalConsole": true,
+      "MIMode": "gdb",
+      "setupCommands": [
+        {
+          "description": "Enable pretty-printing for gdb",
+          "text": "-enable-pretty-printing",
+          "ignoreFailures": true,
+        },
+        {
+          "description": "Set Disassembly Flavor to Intel",
+          "text": "-gdb-set disassembly-flavor intel",
+          "ignoreFailures": true,
+        },
+      ],
+    },
+  ],
+}

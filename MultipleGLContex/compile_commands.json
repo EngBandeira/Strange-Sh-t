@@ -1,0 +1,230 @@
+[
+  {
+    "file": "src/a.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "src/a.cpp",
+      "-c",
+      "-o",
+      "build/src_a.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/src_a.o"
+  },
+  {
+    "file": "src/common.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "src/common.cpp",
+      "-c",
+      "-o",
+      "build/src_common.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/src_common.o"
+  },
+  {
+    "file": "src/utils.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "src/utils.cpp",
+      "-c",
+      "-o",
+      "build/src_utils.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/src_utils.o"
+  },
+  {
+    "file": "src/log.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "src/log.cpp",
+      "-c",
+      "-o",
+      "build/src_log.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/src_log.o"
+  },
+  {
+    "file": "vendor/glad/glad.c",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/glad/glad.c",
+      "-c",
+      "-o",
+      "build/glad_glad.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/glad_glad.o"
+  },
+  {
+    "file": "vendor/imgui/imgui.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/imgui/imgui.cpp",
+      "-c",
+      "-o",
+      "build/imgui_imgui.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/imgui_imgui.o"
+  },
+  {
+    "file": "vendor/imgui/imgui_demo.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/imgui/imgui_demo.cpp",
+      "-c",
+      "-o",
+      "build/imgui_imgui_demo.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/imgui_imgui_demo.o"
+  },
+  {
+    "file": "vendor/imgui/imgui_draw.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/imgui/imgui_draw.cpp",
+      "-c",
+      "-o",
+      "build/imgui_imgui_draw.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/imgui_imgui_draw.o"
+  },
+  {
+    "file": "vendor/imgui/imgui_impl_glfw.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/imgui/imgui_impl_glfw.cpp",
+      "-c",
+      "-o",
+      "build/imgui_imgui_impl_glfw.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/imgui_imgui_impl_glfw.o"
+  },
+  {
+    "file": "vendor/imgui/imgui_impl_opengl3.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/imgui/imgui_impl_opengl3.cpp",
+      "-c",
+      "-o",
+      "build/imgui_imgui_impl_opengl3.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/imgui_imgui_impl_opengl3.o"
+  },
+  {
+    "file": "vendor/imgui/imgui_tables.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/imgui/imgui_tables.cpp",
+      "-c",
+      "-o",
+      "build/imgui_imgui_tables.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/imgui_imgui_tables.o"
+  },
+  {
+    "file": "vendor/imgui/imgui_widgets.cpp",
+    "arguments": [
+      "g++",
+      "-std=c++17",
+      "-Wall",
+      "-Wno-unused",
+      "-Iinclude",
+      "-I.",
+      "-g",
+      "-ggdb",
+      "vendor/imgui/imgui_widgets.cpp",
+      "-c",
+      "-o",
+      "build/imgui_imgui_widgets.o"
+    ],
+    "directory": "/home/bandeira/Documents/GIT/tests/A",
+    "output": "build/imgui_imgui_widgets.o"
+  }
+]
